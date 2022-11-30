@@ -7,7 +7,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.4
 ![Result](./extensions.png)
 
 
-# For mounting ext.drives:
+# For automounting ext.drives:
 
 For list view
 ```
@@ -33,3 +33,5 @@ Then:
 ``` 
 sudo mount -a
 ```
+
+# TODO: Write bash script for mounting and starting plex instead perhaps
