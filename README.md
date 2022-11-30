@@ -1,3 +1,5 @@
+# Desktop:
+
 Setting for changing dock transparency
 
 ```
@@ -34,4 +36,5 @@ Then:
 sudo mount -a
 ```
 
-# TODO: Write bash script for mounting and starting plex instead perhaps
+# TODO: 
+* Write bash script for mounting and starting plex instead perhaps
