@@ -9,6 +9,24 @@ gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.4
 ![Result](./extensions.png)
 
 
+# Horizontal workspaces
+
+```
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down '[]'
+```
+```
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up '[]'
+```
+
+```
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left '["<Super>Left"]' 
+```
+```
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right '["<Super>Right"]'
+```
+
+
+
 # For automounting ext.drives:
 
 For list view
