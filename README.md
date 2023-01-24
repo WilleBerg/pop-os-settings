@@ -25,7 +25,8 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left '["<Supe
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right '["<Super>Right"]'
 ```
 
-
+# Alt-tab fix
+Remove alt-tab from change application to change windows in keyboard shortcuts in settings
 
 # For automounting ext.drives:
 
@@ -53,6 +54,7 @@ Then:
 ``` 
 sudo mount -a
 ```
+
 
 # TODO: 
 * Write bash script for mounting and starting plex instead perhaps
